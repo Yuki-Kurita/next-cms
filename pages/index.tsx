@@ -1,7 +1,12 @@
+import SearchAppBar from '../src/components/SearchAppBar'
+import Button from '@material-ui/core/Button';
+
 const Index = () => {
   return (
     <>
-    index page
+    <SearchAppBar
+      color="inherit"
+    />
     </>
   )
 }
