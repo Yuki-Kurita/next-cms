@@ -4,7 +4,9 @@ import Button from '@material-ui/core/Button';
 const Index = () => {
   return (
     <>
-    <SearchAppBar/>
+    <SearchAppBar
+      color="inherit"
+    />
     </>
   )
 }
