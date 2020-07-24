@@ -1,12 +1,10 @@
-import Header from '../src/components/molecules/Header/header'
+import SearchAppBar from '../src/components/SearchAppBar'
+import Button from '@material-ui/core/Button';
+
 const Index = () => {
   return (
     <>
-    <Header
-      src={`${window.location.origin}/icon.png`}
-      alt="tyotto-good"
-    />
-    index page
+    <SearchAppBar/>
     </>
   )
 }
